@@ -1,0 +1,243 @@
+body {
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Cabin', sans-serif;
+}
+
+body * {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    /* border: 1px solid blue; */
+}
+
+/* COLOR DE FONDO DEL NAV DEL FOOTER */
+.bg_nav_footer{
+    background-color: #373a3c;
+}
+
+/* CAMBIA TIPO DE LETRA AL CUASI ICONO */
+.icono_ricomida{
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+    color: #ffffff;
+}
+
+/* ASIGNA TAMAÑO A IMAGEN PRINCIPAL */
+.img_principal{
+    width: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+/* LINEA DIVISORIA  */
+hr{
+    height: 2px;
+    background-color: #808080;
+}
+
+/* ESPACIO ESPACIO INTERNO AL CARRUSEL  */
+.img_carrusel{
+    padding: 0.3em;
+}
+
+/* DANTO FORMATO A LA IMAGENES DEL CARRUSEL  */
+.img_carrusel img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* FORMATO A LA SECCION SUCRIPCON */
+#suscripcion{
+    background-color: #dc3545;
+    color: #ffffff;
+    padding: 5em;
+}
+
+
+footer{
+    padding: 2em;
+    font-family: 'Lobster', cursive;
+}
+
+
+.txt_final{
+    font-family: 'Lobster', cursive;
+}
+
+
+.carousel-indicators {
+
+    bottom: -45%;
+  
+  }
+
+.carousel-indicators li {
+    border-radius: 50%;
+    background-color: var(--negroL);
+    /* width: 11px;
+    height: 11px; */
+}
+
+.carousel-indicators {
+
+    bottom: -18%;
+  
+  }
+  
+  
+  
+.carousel-indicators li {
+    width: 10px;
+    height: 0px;
+    border-radius: 50%;
+    background-color: gray;
+}
+  
+  
+  
+.carousel-indicators li.active {
+    background-color: #808080;
+}
+
+.btn_blanco{
+    padding: 8px 30px;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+#cabecera{
+    margin: 1em 0;
+}
+
+.botones{
+    padding-top: 3rem;
+}
+
+@media (max-width: 576px) { 
+    
+    .titulo_receta h1{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 500;
+    }     
+
+    .txt_subtitulo{
+        text-align: center;
+    }
+    #carrusel{
+        display: none;
+    }
+
+    .btn_blanco{
+        padding: 8px;
+    }
+
+    .botones{
+        margin-top: 0;
+    }
+    ol li{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #recetas_relacionadas{
+        margin: auto 10px;
+    }
+
+    #suscripcion{
+        padding: 1.2em;
+    }
+
+    #suscripcion h2{
+        margin-bottom: 1em;
+    }
+
+    #suscripcion h3{
+        font-size: 18px;
+    }
+
+    #suscripcion button{
+        padding: .5em 6em;
+
+    }
+
+
+}
+    
+ul li {list-style:none;}
+
+
+.text_sub{
+    font-size: 14px;
+    letter-spacing: 8px;
+    display: inline-block;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px; 
+}
+
+#carrusel{
+    padding-bottom: 2em;
+}
+
+#descripcion {
+    padding-top: 2em;
+    margin-bottom: 2em;
+}
+
+ol li{
+    padding-bottom: 1em;
+}
+
+.separacion{
+    padding-bottom: 1em;
+}
+
+#recetas_relacionadas{
+    padding-top: 2em;
+    margin-bottom: 2em;
+}
+
+#suscripcion button{
+    margin-top: 3em;
+    background-color: #dc3545;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: .5em 2em;
+}
+
+.color_rojo{
+    color: #ff0000;
+}
+.color_negro{
+    color:"#000000";
+}
+
+/* CAMBIAR FONDO A POPOVER NEGRO */
+.popover{
+    background-color: #000000;
+  }
+  .popover-header {
+    color: #ffffff;
+  }
+  .popover-body {
+    color: #000000;
+    color: #ffffff;
+  }
+  .bs-popover-auto[x-placement^=right] .arrow::after, .bs-popover-right .arrow::after{
+    border-right-color: #000000;
+  }
+
+  .bs-popover-auto[x-placement^=bottom] .arrow::after, .bs-popover-bottom .arrow::after{
+    border-bottom-color: #000000;
+  }
+
+  .letra_modal{
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+  }
+
+  h4{
+      font-size: 2em;
+  }
